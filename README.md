@@ -21,3 +21,10 @@ C++17 or later
 TensorFlow Lite
 log4cplus
 cURL
+openCV
+
+Installation
+Clone the repository:
+git clone https://github.com/shivoHum2021/surveillanceSystem.git
+
+
