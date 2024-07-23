@@ -22,17 +22,17 @@ It operates with three main processes:
 
 **Features**
 
---Frame Capture: Captures frames from cameras using CaptureFrameFromCamera.
+-Frame Capture: Captures frames from cameras using CaptureFrameFromCamera.
 
---Object Detection: Utilizes TensorFlow Lite for object detection and processes frames with high efficiency.
+-Object Detection: Utilizes TensorFlow Lite for object detection and processes frames with high efficiency.
 
---Event-Driven Analytics: Analyzes frames for motion events and other significant activities.
+-Event-Driven Analytics: Analyzes frames for motion events and other significant activities.
 
---Video Recording: Records video continuously and saves it locally or uploads it to the cloud.
+-Video Recording: Records video continuously and saves it locally or uploads it to the cloud.
 
---Cloud Integration: Uploads significant events and video segments to the cloud for storage and further analysis.
+-Cloud Integration: Uploads significant events and video segments to the cloud for storage and further analysis.
 
---Efficient Memory Management: Handles frame buffers and TensorFlow Lite interpreter invocation efficiently to minimize memory usage.
+-Efficient Memory Management: Handles frame buffers and TensorFlow Lite interpreter invocation efficiently to minimize memory usage.
 
 ## Requirements
 - CMake 3.5 or higher
