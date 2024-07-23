@@ -77,19 +77,20 @@ These options can be set when running the CMake configuration step:
 cmake -DUSE_TENSOR_LITE=ON -DENABLE_CLASSIFICATION=ON ..
 ```
 ## Components
-*Logger*
+**Logger**
+
 The logger component is responsible for logging throughout the application. It uses the log4cplus library.
 
-*HTTP Client*
+**HTTP Client**
 The HTTP client component handles HTTP requests and responses. It uses the curl library.
 
-*Frame Processing*
+**Frame Processing**
 The frame processing component handles operations related to camera frame handling and processing. It uses OpenCV for image processing tasks.
 
-*Model Processing*
+**Model Processing**
 The model processing component provides support for different machine learning frameworks. Based on the options enabled, it can support TensorFlow Lite, TVM, and PlumerAI models.
 
-*Main Application*
+**Main Application**
 The main application (surveillanceApp) integrates all the components and manages the overall surveillance system operations.
 
 ## License
